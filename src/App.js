@@ -245,7 +245,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F9F9F9',
+    backgroundColor: '#ccc',
   },
   footer: {
     flex: 1,
@@ -262,7 +262,7 @@ const styles = StyleSheet.create({
   game: {
     flex: 6,
     flexDirection: 'row',
-    backgroundColor: '#F9F9F9',
+    backgroundColor: '#ccc',
   },
   row: {
     flex: 1,
@@ -270,8 +270,9 @@ const styles = StyleSheet.create({
   cel: {
     flex: 1,
     flexDirection: 'row',
-    backgroundColor: 'white',
-    borderWidth: 2,
+    backgroundColor: 'lightgreen',
+    borderRightWidth: 2,
+    borderBottomWidth: 2,
     borderColor: 'black',
     justifyContent: 'center',
     alignItems: 'center',
